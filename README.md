@@ -15,7 +15,7 @@ Lackland AFB /JBSA, zip code 78236, was a major outlier in our data set for San 
 ![Majority Nonhispanic zipcodes, 20y Males](https://github.com/bakerv/COVID19/blob/main/Images/Nonhispanic20yoMales.png)
 
 
-Even though the zip code represents some outliers in our data, we decided to keep it because those demographics (males and under 25) show correlations when combined with the rest of our data. The effects of the population of this zip code on the rest of Bexar County warrant further investigation.
+Even though the zip code represents a major outlier in our data, we decided to keep it because those demographics (males and under 25) show correlations when combined with the rest of our data. The effects of the population of this zip code on the rest of Bexar County warrant further investigation.
 
 
 ## Leveling the playing field
