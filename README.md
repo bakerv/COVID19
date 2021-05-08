@@ -7,18 +7,24 @@ This project takes a deep dive into the impact of COVID-19 on the population of 
 
 ## Data Cleaning
 We specifically wanted to look at income, age, ethnicity, and zip code population to see what role, if any, these factors played in COVID-19 positivity in Bexar County.
-We needed to merge the two data sets together which required a good amount of clean up of the Census data.  We removed zip code 78150 – JBSA because the Census listed the income for that zip code as a negative number.  We kept the zip code for Lackland AFB even though the zip code represents some outliers in our data.  This is because the majority of that zip code is male and under 25.   We decided to keep it because those demographics (males and under 25) show correlations in other zip codes.
-We ran a scatter plot chart to see the correlation between zip code population and positive cases.  As you can see, there was a strong correlation between the two. 
 
-## Levelig the playing field
+We needed to merge the two data sets together which required a good amount of clean up of the Census data.  We removed zip code 78150 – JBSA because the Census listed the income for that zip code as a negative number.  
+
+Lackland AFB /JBSA, zip code 78236, was a major outlier in our data set for San Antonio. This is because the majority of that zip code is non hispanic males and under 25. JBSA also exhibited the largest per capipta case rate of COVID for the county, nearly double that of the next highest zip code.
+
+![Majority Nonhispanic zipcodes, 20y Males](https://github.com/bakerv/COVID19/blob/main/Images/Nonhispanic20yoMales.png)
+
+
+Even though the zip code represents some outliers in our data, we decided to keep it because those demographics (males and under 25) show correlations when combined with the rest of our data. The effects of the population of this zip code on the rest of Bexar County warrant further investigation.
+
+
+## Leveling the playing field
+
+We ran a scatter plot chart to see the correlation between zip code population and positive cases.  As you can see, there was a strong correlation between the two. 
 
 ![Population correlation with positivity](https://github.com/bakerv/COVID19/blob/main/Images/Pos_Pop.png)
 
 We decided to look at the positivity rate per 100k in order to level the playing field. We primarily ran scatter plots for our data because we are comparing two different variables. 
-
-## Outliers
-
-
 
 ## Data Analysis
 One of the strongest correlations we found was with the percentage of a zip codes population that self identified as hispanic on the census data.
