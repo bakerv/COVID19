@@ -18,7 +18,7 @@ Lackland AFB /JBSA, zip code 78236, was a major outlier in our data set for San 
 Even though the zip code represents a major outlier in our data, we decided to keep it because those demographics (males and under 25) show correlations when combined with the rest of our data. The effects of the population of this zip code on the rest of Bexar County warrant further investigation.
 
 
-## Leveling the playing field
+### Leveling the playing field
 
 We ran a scatter plot chart to see the correlation between zip code population and positive cases.  As you can see, there was a strong correlation between the two. 
 
@@ -30,23 +30,37 @@ We decided to look at the positivity rate per 100k in order to level the playing
 
 ![image](https://user-images.githubusercontent.com/80709458/117574393-763f9100-b0a2-11eb-8b2b-d8d28f03d491.png)
 
-Non-Hispanic Males 18-19:
-Non-Hispanic males shows the greatest correlation amongst the other age groups, and vs Hispanic males. Majority of this group made up 0% to 4% of the zip code’s population. The more there are 18- to 19-year-old Non-Hispanics, the more covid cases you’ll see. The males 18 to 19 age group were 2nd place in all males to contract covid.
+### Non-Hispanic Males 18-19:
+
+Non-Hispanic males shows the greatest correlation amongst the other age groups, and vs Hispanic males. Majority of this group made up 0% to 4% of the zip code’s population. The more there are 18- to 19-year-old Non-Hispanics, the more covid cases you’ll see. The males 18 to 19 age group were showed the second strongest correlation between age group and COVID.
+
+---
  
 ![image](https://user-images.githubusercontent.com/80709458/117574381-69bb3880-b0a2-11eb-9868-af1b0a04dd8c.png)
 
-Non-Hispanic Females 18-19:
-Non-Hispanic females had one of the highest correlation values compared to other age groups. Females in this age group also came from higher income households.
+### Non-Hispanic Females 18-19:
+
+Non-Hispanic females aslo had one of the highest correlation values compared to other age groups. 
+
+---
  
 ![image](https://user-images.githubusercontent.com/80709458/117574372-6162fd80-b0a2-11eb-8040-28c19c2a34d8.png)
 
-Hispanic Males 18-19:
+### Hispanic Males 18-19:
+
 Hispanic males had no correlation. Lower end value of correlation from the entire dataset that we reviewed. Polar opposite to Non-Hispanics of the same age group. Making up less than 3% of the zip code’s population.
+
+---
 
 ![image](https://user-images.githubusercontent.com/80709458/117574354-560fd200-b0a2-11eb-91ad-e9ebe17fa907.png)
 
-Hispanic Females 18-19:
+### Hispanic Females 18-19:
+
 Hispanic females also had no correlation. Just like males of the same age group the correlation was on the lower end of the spectrum of data. Non-Hispanic females of the same age group also were pretty opposite as well.
+
+--- 
+
+### Income and Ethnicity
 
 One of the strongest correlations we found was with the percentage of a zip codes population that self identified as hispanic on the census data.
 
